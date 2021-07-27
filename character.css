@@ -1,0 +1,23 @@
+body{
+    background-color: wheat;
+}
+h2{
+    font-size: 34px;
+    font-family: fantasy;
+}
+p{
+    font-size: 22px;
+    font-family: fantasy;
+}
+.character-div{
+    background-color: rgba(255,255,255,0.7);
+    display: flex;
+    height: auto;
+    width: 75%;
+    margin-left: 12.5%;
+    text-align: center;
+}
+.Therion-jpg{
+    max-width:100% ;
+    max-height: 100%;
+}
