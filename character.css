@@ -22,7 +22,7 @@ p{
     max-height: 100%;
     
 }
-@media screen and (max-width:1316px){
+@media screen and (max-width:1650px){
     .character-div{
         flex-direction: column;
         align-items:center;
