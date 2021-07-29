@@ -28,3 +28,20 @@ nav a:hover{
     color: white;
 }
 /* 導覽欄 */
+.home{
+    width: 100%;
+    height: 100%;
+    background-image: url(/other/map.jpg);
+    background-size: 100%;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+}
+.logo img{
+    position: relative;
+    width: 500px;
+    height: 250px;
+    margin-top: 5%;
+    margin-left: 38%;
+}
