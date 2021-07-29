@@ -13,6 +13,7 @@ p{
 .TOP{
     position: fixed;
     top: 0px;
+    left: -0px;
     width: 100%;
 }
 nav a{
@@ -27,7 +28,7 @@ nav a{
 .unlist-nav{
     display: flex;
     background-image: url('/other/nav-background.jpg');
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -39,7 +40,7 @@ nav a:hover{
 }
 /* 導覽欄 */
 .character-div{
-    margin-top: 5%;
+    margin-top: 8%;
     background-color: rgba(255,255,255,0.7);
     display: flex;
     height: auto;
