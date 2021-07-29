@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="music.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+    
+    <script>
+        function resizeIframe(obj) {
+          obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+      </script>
+      
 </head>
 <body>
     <!-- 導覽欄 -->
@@ -28,9 +35,9 @@
     
         <div class="one-time">
             <div><div class="character"><img class="character-img"src="characters/Therion.jpg"><p>泰里翁-Therion, the Thief</p></div></div>
-            <div><div class="YT"><iframe class="YT-video" src="https://www.youtube.com/embed/CcebTvbEKew?list=PLNLY7iqunO-qyTrAYEpHsZkuHyXjKGxI5" id="myiframe" scrolling="no" onload="changeFrameHeight()" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
-            <div><div></div></div>
-            <div><div></div></div>
+            <div><div class="YT"><iframe class="YT-video" src="https://www.youtube.com/embed/CcebTvbEKew?list=PLNLY7iqunO-qyTrAYEpHsZkuHyXjKGxI5" id="myiframe" scrolling="no" onload="resizeIframe(this)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+            <div><div class="character"><img class="character-img"src="characters/Therion.jpg"><p>泰里翁-Therion, the Thief</p></div></div>
+            <div><div class="YT"><iframe class="YT-video" src="https://www.youtube.com/embed/CcebTvbEKew?list=PLNLY7iqunO-qyTrAYEpHsZkuHyXjKGxI5" id="myiframe" scrolling="no" onload="resizeIframe(this)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
             <div><div></div></div>
             <div><div></div></div>
             <div><div></div></div>

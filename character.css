@@ -39,6 +39,20 @@ nav a:hover{
     color: white;
 }
 /* 導覽欄 */
+
+/* 搜尋列 */
+.search{
+    position: fixed;
+    display: flex;
+}
+.search-a{
+    width: 7.5%;
+}
+.search-img{
+    width: 80%;
+    height: 100%;
+}
+/* 搜尋列 */
 .character-div{
     margin-top: 8%;
     background-color: rgba(255,255,255,0.7);

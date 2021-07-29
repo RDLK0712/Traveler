@@ -71,5 +71,10 @@ h2{
     display: flex;
     background-color: teal;
     width: 100%;
-   
+   height: 100%;
 }
+.YT-video{
+    width: 100%;
+    height: 100%;
+}
+/* 角色主題曲 */
