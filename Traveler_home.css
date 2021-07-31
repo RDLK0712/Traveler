@@ -28,18 +28,20 @@ nav a:hover{
     color: white;
 }
 /* 導覽欄 */
-.home{
+body{
+    margin: 0px;
+    padding: 0px;
     width: 100%;
     height: 100%;
     background-image: url(/other/map.jpg);
-    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .logo{
     width: 100%;
     height: 100%;
 }
 .logo img{
-    position: relative;
     width: 500px;
     height: 250px;
     margin-top: 5%;
@@ -81,4 +83,18 @@ dl  dt{
 }
 dl dd{
     color: white;
+}
+iframe{
+    margin-top: 3%;
+    margin-left: 20%;
+    width:  750px;
+    height: 400px;
+}
+.frame{
+    position: relative;
+    width: 65%;
+    margin-left: 17%;
+}
+.footer_black{
+    background: black;
 }
