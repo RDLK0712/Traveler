@@ -75,7 +75,7 @@ h2{
     display: flex;
 }
 dl{
-    margin-left: 10%;
+    margin-left: 3%;
 }
 dl  dt{
     font-size: x-large;
@@ -100,4 +100,33 @@ iframe{
 }
 .footer_black{
     background: black;
+    position: relative;
+    display: flex;
+   margin-left: 0%;
+}
+.footer{
+    width: auto;
+}
+.pic{}
+.sqex-footer{
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 1000;
+    width: 70%;
+    color: white;
+}
+.sqex-footer-logo{
+    background: black;
+    border-top :1px solid #333;
+}
+.game-logo{
+    width: 100%;
+    margin-left: 1%;
+}
+.game-logo img{
+    width: 100px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
