@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="combat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+</head>
+<body>
+    <!-- 導覽欄 -->
+    <nav class="TOP">
+        <ul class="unlist-nav">    
+            <li><a href="Traveler_home.html">首頁</a></li>
+            <li><a href="character.html">角色介紹</a></li>
+            <li><a href="combat.html">戰鬥機制</a></li>
+            <li><a href="music.html">遊戲配樂</a></li>
+            <li><a href="Traveler_company.html">製作公司</a></li>
+        </ul>    
+    </nav> 
+    <!-- 導覽欄 -->
+
+    <!-- 回合制 -->
+    <div class="Turn-based ">
+        <div>
+            <h1>歧路旅人的回合制戰鬥</h1>
+            <p>歧路旅人的遊戲機制是採取回合制戰鬥，但不同於一般的回合制戰鬥，歧路旅人的回合制戰鬥在基礎上，加上了BP機制與弱點機制兩個機制。</br>
+                透過這兩個機制，歧路旅人的戰鬥體驗就相較於傳統回合制更有策略性，並且善用這二者機制後的優點也十分巨大。</br>
+                這也鼓勵了絕大多數的玩家在戰鬥時不會再是以傳統回合制的思路戰鬥，而是轉變成能利用二者機制的思路戰鬥。
+            </p>
+        </div>
+
+        <div class="Turn-div-img">
+        <img class="Turn-img" src="/combat/weak point.jpg">
+        <img class="Turn-img" src="/combat/BP-1.JPG">
+        </div>
+    </div>
+    <!-- 回合制 -->
+
+    <!-- 弱點機制 -->
+    <div class="weak-point">
+        <div class="container-1">
+            <div class="one-time">
+                <div><div class="weak-1">
+                    <img src="combat/weak point-damage.jpg"><div>
+                        <h2>弱點機制-1</h2>
+                        <p>每個敵人都有不同的弱點，如果能對應敵人的弱點，以相同的傷害種類攻擊，便可以達到較高的傷害。</p>
+                    </div>
+                </div></div>
+                <div><div class="weak-2">
+                    <div class="weak-2-img"><img src="/combat/break.jpg"><p>→</p><img src="combat/dizzy.jpg"></div>
+                    <div>
+
+                    </div>
+                </div></div>
+                <div><div></div></div>
+                <div><div></div></div>
+            </div>    
+        </div>
+    </div>
+    <!-- 弱點機制 -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>				
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>    
+    <script src="combat.js"></script>            
+</body>
+</html>

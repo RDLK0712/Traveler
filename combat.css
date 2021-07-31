@@ -1,0 +1,100 @@
+/* 導覽欄 */
+.TOP{
+    position: fixed;
+    top: 0px;
+    left: -0px;
+    width: 100%;
+}
+nav a{
+    
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: fantasy;
+    display: block;
+    padding: 10px;
+}
+.unlist-nav{
+    display: flex;
+    background-image: url('/other/nav-background.jpg');
+    background-repeat:repeat;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-around;
+}
+nav a:hover{
+    background-color: salmon;
+    color: white;
+}
+/* 導覽欄 */
+
+body{
+    background-color: black;
+}
+p{
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+/* 回合制 */
+.Turn-based{
+    margin-top: 200px;
+    width: 75%;
+    margin-left: 12.5%;
+    background-color: rgba(255, 255, 255, 0.829);
+    border-radius: 3%;
+    overflow: hidden;
+    display: flex;
+}
+.Turn-div-img{
+    width: 100%;
+    display: flex;
+}
+.Turn-img{
+    width: 100%;
+}
+@media screen and (max-width:1200px)
+{
+    .Turn-based{
+        flex-direction: column;
+    }
+}
+/* 回合制 */
+
+/* 弱點機制 */
+.weak-point{
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 8%;
+    background-color: rgba(255, 255, 255, 0.829);
+    border-radius: 3%;
+}
+.weak-1{
+    border-radius: 3%;
+    display: flex;
+    overflow: hidden;
+}
+.weak-1 img{
+    width: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.weak-2{
+    border-radius: 3%;
+    display: flex;
+    overflow: hidden;
+}
+.weak-2-img{
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+}
+.weak-2-img p{
+    font-size: 40px;
+}
+/* 弱點機制 */
