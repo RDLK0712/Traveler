@@ -113,5 +113,50 @@ h2{
 /* 角色主題曲 */
 
 /* 場地配樂 */
-
+.place-bgm{
+    background-color:rgba(0,0,0,0.7);
+    margin-left: 7.5%;
+    width: 85%;
+    border-radius: 3%;
+}
+.container-2{
+    width: 90%;
+    margin-left: 5%;
+}
+.place-left{
+    background-color: aquamarine;
+    width: 95%;
+}
+.place-right{
+    background-color: brown;
+    width: 95%;
+    margin-left: 5%;
+}
+.place-a{
+    width: 100%;
+    height: 100%;
+}
+.place-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.container-2 p{
+    font-family: fantasy;
+    font-size: 18px;
+}
+@media screen and (max-width:850px){
+    .container-2 p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:670px){
+    .container-2 p{
+        font-size: 11px;
+    }
+} 
+@media screen and (max-width:400px){
+    .container-2 p{
+        font-size: 8px;
+    }
+}
 /* 場地配樂 */
