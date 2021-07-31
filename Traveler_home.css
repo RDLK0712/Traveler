@@ -84,16 +84,19 @@ dl  dt{
 dl dd{
     color: white;
 }
+.video h1{
+    text-align: center;
+    color: whitesmoke;
+}
 iframe{
-    margin-top: 3%;
-    margin-left: 20%;
+    margin-left: 25%;
     width:  750px;
     height: 400px;
 }
 .frame{
     position: relative;
     width: 65%;
-    margin-left: 17%;
+    margin-left: 15%;
 }
 .footer_black{
     background: black;
