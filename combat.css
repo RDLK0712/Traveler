@@ -32,6 +32,9 @@ nav a:hover{
 
 body{
     background-color: black;
+    background-image: url('/other/bar-time.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
 p{
     font-size: 20px;
@@ -43,28 +46,43 @@ p{
     margin-top: 200px;
     width: 75%;
     margin-left: 12.5%;
-    background-color: rgba(255, 255, 255, 0.829);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 3%;
     overflow: hidden;
     display: flex;
 }
+.Turn-text{
+    width: 60%;
+}
 .Turn-div-img{
+    background-color: coral;
     width: 100%;
     display: flex;
 }
 .Turn-img{
-    width: 100%;
+    width: 50%;
 }
 @media screen and (max-width:1200px)
 {
     .Turn-based{
         flex-direction: column;
     }
+    .Turn-text{
+        width: 100%;
+    }
     .Turn-based h1{
         font-size: 24px;
     }
     .Turn-based p{
-        font-size: 15px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:500px){
+    .Turn-based h1{
+        font-size: 18px;
+    }
+    .Turn-based p{
+        font-size: 14px;
     }
 }
 /* 回合制 */
@@ -74,7 +92,7 @@ p{
     width: 85%;
     margin-left: 7.5%;
     margin-top: 8%;
-    background-color: rgba(255, 255, 255, 0.829);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 3%;
 }
 .weak-1{
@@ -92,10 +110,10 @@ p{
     height: 100%;
 }
 @media screen and (max-width:925px){
-    .weak-1 h2{
+    .weak-point h2{
         font-size: 20px;
     }
-    .weak-1 p{
+    .weak-point p{
         font-size: 15px;
     }
     .weak-1-img{
@@ -103,10 +121,10 @@ p{
     }
 }
 @media screen and (max-width:465px){
-    .weak-1 h2{
+    .weak-point h2{
         font-size: 15px;
     }
-    .weak-1 p{
+    .weak-point p{
         font-size: 12px;
     }
     .weak-1-img{
@@ -126,18 +144,22 @@ p{
 .weak-2-img{
     display: flex;
     align-items: center;
-}
-.weak-2-img p{
-    font-size: 30px;
+    width: 70%;
 }
 .weak-2-img img{
-    max-width: 100%;
-    max-height: 100%;
+    width: 45%;
 }
 .weak-2-text{
     width: 30%;
 }
-
+@media screen and (max-width:465px){
+    .weak-2-img{
+        width: 50%;
+    }
+    .weak-2-text{
+    width: 50%;
+    }
+}
 
 .weak-3{
     width: 98%;
@@ -151,6 +173,12 @@ p{
 }
 .weak-3-img img{
     width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:675px){
+    .weak-3-img{
+        width: 80%;
+    }
 }
 
 
@@ -171,29 +199,47 @@ p{
     width: 85%;
     margin-left: 7.5%;
     margin-top: 8%;
-    background-color: rgba(255, 255, 255, 0.829);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 3%;
 }
+@media screen and (max-width:925px){
+    .Battle-Point h2{
+        font-size: 20px;
+    }
+    .Battle-Point p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:465px){
+    .Battle-Point h2{
+        font-size: 15px;
+    }
+    .Battle-Point p{
+        font-size: 10px;
+    }
+}
+
 .BP-1{
     width: 98%;
     margin-left: 1%;
     border-radius: 3%;
-    display: flex;
     overflow: hidden;
 }
 .BP-1-text{
-    width: 50%;
+    width: 100%;
 }
 .BP-1-img{
-    background-color: cadetblue;
-    width: 50%;
+    width: 80%;
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 .BP-1-img img{
-    max-width: 100%;
-    max-height: 100%;
+    width: 50%;
+}
+@media screen and (max-width:775px){
+    .BP-1-img{
+        width: 100%;
+    }
 }
 
 
@@ -205,16 +251,39 @@ p{
     overflow: hidden;
 }
 .BP-2-text{
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    width: 120%;
 }
 .BP-2-img{
-    width: 100%;
-    height: 100%;
+    
+    width: 80%;
+    height: inherit;
     display: flex;
 }
 .BP-2-img img{
     width:50%;
     height: 100%;
+}
+@media screen and (max-width:1350px){
+    .BP-2-img{
+        flex-direction: column;
+    }
+    .BP-2-img img{
+        width: 100%;
+        height: 50%
+    }
+}
+@media screen and (max-width:775px){
+    .BP-2-img img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px){
+    .BP-2-text{
+        width: 100%;
+    }
 }
 
 
@@ -230,12 +299,33 @@ p{
 }
 .BP-3-img{
     width: 100%;
-    height: 100%;
+    height: inherit;
     display: flex;
     align-items: center;
 }
 .BP-3-img img{
-    width: 100%;
-    max-height: 100%;
+    
+    width: 20%;
+    height: 100%;
+}
+@media screen and (max-width:725px)
+{
+    .BP-3-img{
+        width: 80%;
+    }
+}
+@media screen and (max-width:650px){
+    .BP-3 h2{
+        font-size: 17px;
+    }
+    .BP-3 p{
+        font-size: 12px;
+    }
+    .BP-3{
+        flex-direction: column;
+    }
+    .BP-3-img{
+        width: 100%;
+    }
 }
 /* BP機制 */
