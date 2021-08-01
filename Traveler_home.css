@@ -4,6 +4,7 @@
     top: 0px;
     left: -0px;
     width: 100%;
+    z-index: 1;
 }
 nav a{
     
@@ -38,22 +39,22 @@ body{
     background-size: cover;
 }
 .logo{
-    width: 100%;
-    height: 100%;
+    margin-top: 150px;
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
 }
 .logo img{
-    width: 500px;
-    height: 250px;
-    margin-top: 5%;
-    margin-left: 38%;
+    width: 100%;
+    height: 100%;
 }
 .arward{
     background-image: url(/other/awards_bg.png);
     border: 5px solid black;
-    width: 50%;
-    padding: 26px 80px;
+    width: 55%;
+    padding: 6.7% 6%;
     margin-top: 1%;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 h2{
     text-align: center;
@@ -79,30 +80,49 @@ dl{
 }
 dl  dt{
     font-size: x-large;
-    color: white;
+    color: wheat;
 }
 dl dd{
     color: white;
+}
+@media screen and (max-width:900px){
+    dl dt{
+        font-size: larger;
+    }
+    dl dd{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:450px){
+    dl dt{
+        font-size: 13px;
+    }
+    dl dd{
+        font-size: 8px;
+    }
+    .arward{
+        margin:0%;
+        padding: 0%;
+        width: 96%;
+    }
 }
 .video h1{
     text-align: center;
     color: whitesmoke;
 }
 iframe{
-    margin-left: 25%;
-    width:  750px;
+    width:  100%;
     height: 400px;
 }
-.frame{
+.container{
     position: relative;
-    width: 65%;
+    width: 70%;
     margin-left: 15%;
 }
 .footer_black{
     background: black;
     position: relative;
     display: flex;
-   margin-left: 0%;
 }
 .footer{
     width: auto;
@@ -129,4 +149,13 @@ iframe{
     height: 80px;
     margin-top: 20px;
     margin-left: 30px;
+}
+@media screen and (max-width:700px){
+    .footer_black{
+        flex-direction: column;
+    }
+    .game-logo{
+        margin-left: 0px;
+        width: inherit;
+    }
 }
