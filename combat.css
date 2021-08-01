@@ -60,6 +60,12 @@ p{
     .Turn-based{
         flex-direction: column;
     }
+    .Turn-based h1{
+        font-size: 24px;
+    }
+    .Turn-based p{
+        font-size: 15px;
+    }
 }
 /* 回合制 */
 
@@ -73,6 +79,7 @@ p{
 }
 .weak-1{
     width: 98%;
+    margin-left: 1%;
     border-radius: 3%;
     display: flex;
     overflow: hidden;
@@ -84,32 +91,57 @@ p{
     width: 100%;
     height: 100%;
 }
+@media screen and (max-width:925px){
+    .weak-1 h2{
+        font-size: 20px;
+    }
+    .weak-1 p{
+        font-size: 15px;
+    }
+    .weak-1-img{
+        width: 40%;
+    }
+}
+@media screen and (max-width:465px){
+    .weak-1 h2{
+        font-size: 15px;
+    }
+    .weak-1 p{
+        font-size: 12px;
+    }
+    .weak-1-img{
+        width:60%;
+    }
+}
 
 
 .weak-2{
-    background-color: royalblue;
     width: 98%;
+    margin-left: 1%;
     border-radius: 3%;
     display: flex;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 .weak-2-img{
-    background-color: rosybrown;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    width: 50%;
 }
 .weak-2-img p{
-    font-size: 40px;
+    font-size: 30px;
 }
 .weak-2-img img{
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
+.weak-2-text{
+    width: 30%;
+}
+
 
 .weak-3{
     width: 98%;
+    margin-left: 1%;
     border-radius: 3%;
     display: flex;
     overflow: hidden;
@@ -120,4 +152,90 @@ p{
 .weak-3-img img{
     width: 100%;
 }
+
+
+.weak-4{
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 3%;
+    overflow: hidden;
+    text-align: center;
+}
+.weak-4 img{
+    width: 100%;
+}
 /* 弱點機制 */
+
+/* BP機制 */
+.Battle-Point{
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 8%;
+    background-color: rgba(255, 255, 255, 0.829);
+    border-radius: 3%;
+}
+.BP-1{
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 3%;
+    display: flex;
+    overflow: hidden;
+}
+.BP-1-text{
+    width: 50%;
+}
+.BP-1-img{
+    background-color: cadetblue;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BP-1-img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.BP-2{
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 3%;
+    display: flex;
+    overflow: hidden;
+}
+.BP-2-text{
+    width: 100%;
+}
+.BP-2-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.BP-2-img img{
+    width:50%;
+    height: 100%;
+}
+
+
+.BP-3{
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 3%;
+    display: flex;
+    overflow: hidden;
+}
+.BP-3-text{
+    width: 100%;
+}
+.BP-3-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.BP-3-img img{
+    width: 100%;
+    max-height: 100%;
+}
+/* BP機制 */
