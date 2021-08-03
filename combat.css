@@ -47,29 +47,28 @@ p{
     width: 75%;
     margin-left: 12.5%;
     background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 3%;
-    overflow: hidden;
+    border-radius: 25px;
     display: flex;
+    overflow: hidden;
 }
 .Turn-text{
-    width: 60%;
+    width: 75%;
+    border-radius: 25px;
+    flex-wrap: wrap;
 }
 .Turn-div-img{
-    background-color: coral;
-    width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 25px;
+    width: 25%;
 }
 .Turn-img{
-    width: 50%;
+    max-height: 100%;
+    max-width: 100%;
 }
 @media screen and (max-width:1200px)
 {
-    .Turn-based{
-        flex-direction: column;
-    }
-    .Turn-text{
-        width: 100%;
-    }
     .Turn-based h1{
         font-size: 24px;
     }
@@ -77,12 +76,30 @@ p{
         font-size: 18px;
     }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:900px){
+    .Turn-based{
+        flex-direction: column;
+    }
+    .Turn-text{
+        width: 100%;
+    }
+    .Turn-div-img{
+        width: 100%;
+        align-items: center;
+    }
     .Turn-based h1{
-        font-size: 18px;
+        font-size: 20px;
     }
     .Turn-based p{
         font-size: 14px;
+    }
+}
+@media screen and (max-width:600px){
+    .Turn-based h1{
+        font-size: 16px;
+    }
+    .Turn-based p{
+        font-size: 10px;
     }
 }
 /* 回合制 */
@@ -93,72 +110,94 @@ p{
     margin-left: 7.5%;
     margin-top: 8%;
     background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 3%;
+    border-radius: 25px;
 }
 .weak-1{
-    width: 98%;
-    margin-left: 1%;
-    border-radius: 3%;
+    width: 100%;
+    border-radius: 25px;
     display: flex;
     overflow: hidden;
 }
+.weak-1-text{
+    width: 80%;
+    border-radius: 25px;
+}
 .weak-1-img{
     width: 20%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .weak-1-img img{
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
-@media screen and (max-width:925px){
+@media screen and (max-width:1200px){
+    .weak-point h2{
+        font-size: 24px;
+    }
+    .weak-point p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:900px){
+    .weak-1{
+        flex-direction: column;
+    }
+    .weak-1-text{
+        width: 100%;
+    }
+    .weak-1-img{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .weak-1-img img{
+        max-width: 138.5px;
+        max-height: 133.5px;
+    }
     .weak-point h2{
         font-size: 20px;
     }
     .weak-point p{
-        font-size: 15px;
-    }
-    .weak-1-img{
-        width: 40%;
+        font-size: 14px;
     }
 }
-@media screen and (max-width:465px){
+@media screen and (max-width:600px){
     .weak-point h2{
-        font-size: 15px;
+        font-size: 16px;
     }
     .weak-point p{
-        font-size: 12px;
-    }
-    .weak-1-img{
-        width:60%;
+        font-size: 10px;
     }
 }
 
 
 .weak-2{
-    width: 98%;
-    margin-left: 1%;
-    border-radius: 3%;
+    width: 100%;
+    border-radius: 25px;
     display: flex;
+    flex-direction: column;
     overflow: hidden;
-    flex-wrap: wrap;
-}
-.weak-2-img{
-    display: flex;
-    align-items: center;
-    width: 70%;
-}
-.weak-2-img img{
-    width: 45%;
 }
 .weak-2-text{
-    width: 30%;
+    background-color: burlywood;
+    width: 100%;
+}
+.weak-2-img{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.weak-2-img img{
+    max-width: 100%;
+    max-height: 100%;
 }
 @media screen and (max-width:465px){
-    .weak-2-img{
-        width: 50%;
-    }
-    .weak-2-text{
-    width: 50%;
-    }
 }
 
 .weak-3{
@@ -200,7 +239,7 @@ p{
     margin-left: 7.5%;
     margin-top: 8%;
     background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 3%;
+    border-radius:3%;
 }
 @media screen and (max-width:925px){
     .Battle-Point h2{
@@ -246,7 +285,7 @@ p{
 .BP-2{
     width: 98%;
     margin-left: 1%;
-    border-radius: 3%;
+    border-radius: 5%;
     display: flex;
     overflow: hidden;
 }
