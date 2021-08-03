@@ -67,10 +67,6 @@ body{
     background-color: rgba(0,0,0,0.8);
     border-radius: 3%;
     overflow: hidden;
-<<<<<<< HEAD
-    position: relative;
-=======
->>>>>>> d26154d3d5c7c1d648b123bcfeb430322560a70a
     display: flex;
 }
 .producer-1{
@@ -80,10 +76,6 @@ body{
     text-align: center;
 }
 .producer-1 img{
-<<<<<<< HEAD
-    width: 60%;
-    height: 60%;
-=======
     width: 100%;
     height:auto ;
     border-radius: 3%;
@@ -96,7 +88,6 @@ body{
 }
 .producer-2 img{
     width: 100%;
->>>>>>> d26154d3d5c7c1d648b123bcfeb430322560a70a
     border-radius: 3%;
 }
 .producer-2{
