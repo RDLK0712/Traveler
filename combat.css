@@ -119,11 +119,13 @@ p{
     overflow: hidden;
 }
 .weak-1-text{
-    width: 80%;
+    background-color: rosybrown;
+    width: 75%;
     border-radius: 25px;
 }
 .weak-1-img{
-    width: 20%;
+    background-color: aquamarine;
+    width: 25%;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -142,21 +144,6 @@ p{
     }
 }
 @media screen and (max-width:900px){
-    .weak-1{
-        flex-direction: column;
-    }
-    .weak-1-text{
-        width: 100%;
-    }
-    .weak-1-img{
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }
-    .weak-1-img img{
-        max-width: 138.5px;
-        max-height: 133.5px;
-    }
     .weak-point h2{
         font-size: 20px;
     }
@@ -164,12 +151,34 @@ p{
         font-size: 14px;
     }
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
+    .weak-1{
+        flex-direction: column;
+    }
+    .weak-1-text{
+        width: 100%;
+    }
+    .weak-1-img{
+        width: 50%;
+        margin: 0% 25%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .weak-1-img img{
+        max-width: 50%;
+        max-height: 50%;
+    }
     .weak-point h2{
         font-size: 16px;
     }
     .weak-point p{
         font-size: 10px;
+    }
+}
+@media screen and (max-width:450px){
+    .weak-1-img{
+        width: 75%;
+        margin: 0% 12.5%;
     }
 }
 
@@ -178,53 +187,92 @@ p{
     width: 100%;
     border-radius: 25px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     overflow: hidden;
 }
 .weak-2-text{
     background-color: burlywood;
-    width: 100%;
+    width: 50%;
 }
 .weak-2-img{
-    background-color: cadetblue;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50%;
 }
 .weak-2-img img{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 277px;
+    max-height: 267px;
+    width: 45%;
 }
-@media screen and (max-width:465px){
+@media screen and (max-width:700px){
+    .weak-2{
+        flex-direction: column;
+    }
+    .weak-2-text{
+        width: 100%;
+    }
+    .weak-2-img{
+        width: 60%;
+        margin: 0% 20%;
+    }
+}
+@media screen and (max-width:450px){
+    .weak-2-img{
+        width: 80%;
+        margin: 0% 10%;
+    }
 }
 
 .weak-3{
-    width: 98%;
-    margin-left: 1%;
-    border-radius: 3%;
+    width: 100%;
+    border-radius: 25px;
     display: flex;
     overflow: hidden;
 }
+.weak-3-text{
+    width: 75%;
+}
 .weak-3-img{
-    width: 20%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .weak-3-img img{
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
-@media screen and (max-width:675px){
+@media screen and (max-width:700px){
+    .weak-3{
+        flex-direction: column;
+    }
+    .weak-3-text{
+        width: 100%;
+    }
     .weak-3-img{
-        width: 80%;
+        width: 50%;
+        margin: 0% 25%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .weak-3-img img{
+        max-width: 50%;
+        max-height: 50%;
+    }
+}
+@media screen and (max-width:450px){
+    .weak-3-img{
+        width: 75%;
+        margin: 0% 12.5%;
     }
 }
 
 
 .weak-4{
-    width: 98%;
-    margin-left: 1%;
-    border-radius: 3%;
+    width: 100%;
+    border-radius: 25px;
     overflow: hidden;
     text-align: center;
 }
@@ -241,17 +289,25 @@ p{
     background-color: rgba(255, 255, 255, 0.7);
     border-radius:3%;
 }
-@media screen and (max-width:925px){
+@media screen and (max-width:1200px){
+    .Battle-Point h2{
+        font-size: 24px;
+    }
+    .Battle-Point p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:900px){
     .Battle-Point h2{
         font-size: 20px;
     }
     .Battle-Point p{
-        font-size: 15px;
+        font-size: 14px;
     }
 }
-@media screen and (max-width:465px){
+@media screen and (max-width:700px){
     .Battle-Point h2{
-        font-size: 15px;
+        font-size: 16px;
     }
     .Battle-Point p{
         font-size: 10px;
@@ -259,34 +315,40 @@ p{
 }
 
 .BP-1{
-    width: 98%;
-    margin-left: 1%;
-    border-radius: 3%;
+    width: 100%;
+    border-radius: 25px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 .BP-1-text{
+    background-color: rosybrown;
     width: 100%;
 }
 .BP-1-img{
-    width: 80%;
+    background-color: goldenrod;
+    width: 60%;
+    margin: 0% 20%;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 .BP-1-img img{
-    width: 50%;
+    width: 45%;
 }
-@media screen and (max-width:775px){
+@media screen and (max-width:450px){
     .BP-1-img{
-        width: 100%;
+        width: 80%;
+        margin: 0% 10%;
     }
 }
 
-
 .BP-2{
-    width: 98%;
-    margin-left: 1%;
-    border-radius: 5%;
+    width: 100%;
+    border-radius: 25px;
     display: flex;
+    flex-direction: column;
     overflow: hidden;
 }
 .BP-2-text{
@@ -324,8 +386,6 @@ p{
         width: 100%;
     }
 }
-
-
 .BP-3{
     width: 98%;
     margin-left: 1%;
