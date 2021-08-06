@@ -11,6 +11,14 @@ p{
     font-size: 20px;
     font-family: fantasy;
 }
+@media screen and (max-width:1000px){
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
 /* 導覽欄 */
 .TOP{
     position: fixed;
@@ -42,22 +50,42 @@ nav a:hover{
 }
 /* 導覽欄 */
 
+.container{
+    margin-top: 100px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* 搜尋列 */
 .search{
     margin-top: 50px;
-    margin-left: 10px;
-    height: 85%;
-    width: 6%;
+    height: 6%;
+    width: 85%;
     display: flex;
-    flex-direction: column;
-    position: fixed;
-    justify-content: space-around;
+    flex-direction: row;
 }
-.search-a{
+.search-up{
+    width: 48%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.search-down{
+    width: 48%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+.search-btn{
+    background-color: teal;
     max-width: 100px;
     max-height: 119px;
     width: 100%;
-    height: 10%;
 }
 .search-img{
     max-width: 100px;
@@ -67,44 +95,56 @@ nav a:hover{
     height: 100%;
     
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:700px){
     .search{
-        margin-top: 70px;
-        margin-left: 0px;
-        width: 11%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .search-up{
+        width: 100%;
+        margin: 5px 0px;
+        justify-content: space-between;
+    }
+    .search-down{
+        width: 100%;
+        margin: 5px 0px;
+        justify-content: space-between;
     }
 }
 /* 搜尋列 */
 
 /* 角色介紹 */
-.character-div{
-    padding-top: 7%;
+.characters-background{
+    
+    margin: 5% 0%;
+    width: 100%;
     display: flex;
-    height: auto;
-    width: 75%;
-    margin-left: 12.5%;
+    flex-direction: column;
+    align-items: center;
 }
-.PICTURE{
-    max-width: 100%;
-    max-height: 100%; 
+.C-img{
+    
+    width: 500px;
+    height: 500px;
+
 }
-.character-text{
-    background-color: rgba(255,255,255,0.8);
+.C-text{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-@media screen and (max-width:1650px){
-    .character-div{
-        flex-direction: column;
-        align-items:center;
+@media screen and (max-width:600px){
+    .C-img{
+        width: 85%;
+        height: auto;
     }
-}
-@media screen and (max-width:540px){
-    .character-div{
-        padding-top: 15%;
-    }
-}
-@media screen and (max-width:457px){
-    .character-div{
-        padding-top: 25%;
+    .C-img img{
+        width: 100%;
     }
 }
 /* 角色介紹 */
