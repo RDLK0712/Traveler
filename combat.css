@@ -395,11 +395,15 @@ p{
     width: 100%;
     border-radius: 25px;
     display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 .BP-3-text{
+    background-color: blueviolet;
     width: 100%;
 }
 .BP-3-img{
+    background-color: burlywood;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -408,28 +412,9 @@ p{
     border-radius: 25px;
 }
 .BP-3-img img{
+    max-width: 117px;
+    max-height: 173px;
+    width: 22%;
     
-    width: 20%;
-    height: 100%;
-}
-@media screen and (max-width:725px)
-{
-    .BP-3-img{
-        width: 80%;
-    }
-}
-@media screen and (max-width:650px){
-    .BP-3 h2{
-        font-size: 17px;
-    }
-    .BP-3 p{
-        font-size: 12px;
-    }
-    .BP-3{
-        flex-direction: column;
-    }
-    .BP-3-img{
-        width: 100%;
-    }
 }
 /* BP機制 */
