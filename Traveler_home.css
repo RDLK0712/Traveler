@@ -53,7 +53,7 @@ body{
     border: 5px solid black;
     width: 55%;
     padding: 6.7% 6%;
-    margin-top: 1%;
+    margin-top:1%;
     margin-left: 15%;
 }
 h2{
@@ -76,7 +76,7 @@ h2{
     display: flex;
 }
 dl{
-    margin-left: 3%;
+    margin-left: 5%;
 }
 dl  dt{
     font-size: x-large;
@@ -127,7 +127,6 @@ iframe{
 .footer{
     width: auto;
 }
-.pic{}
 .sqex-footer{
     margin: 0 auto;
     padding: 20px 0;
@@ -142,13 +141,16 @@ iframe{
 }
 .game-logo{
     width: 100%;
-    margin-left: 1%;
+    margin-left: 2%;
 }
-.game-logo img{
-    width: 100px;
-    height: 80px;
-    margin-top: 20px;
-    margin-left: 30px;
+
+.game-logo img {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.logo-1{
+    width: 170px;
+    height: 70px;
 }
 @media screen and (max-width:700px){
     .footer_black{
