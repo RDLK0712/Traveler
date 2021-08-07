@@ -69,6 +69,24 @@ body{
     overflow: hidden;
     display: flex;
 }
+.producer2{
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 90%;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 3%;
+    overflow: hidden;
+    display: flex;
+}
+.producer3{
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 90%;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 3%;
+    overflow: hidden;
+    display: flex;
+}
 .producer-1{
     margin-right: 2%;
     width: 48%;
@@ -94,5 +112,39 @@ body{
     width: 48%;
     color: white;
     text-align: center;
+}
+.producer-3{
+    margin-right: 2%;
+    width: 48%;
+    color: white;
+    text-align: center;
+}
+.producer-3 img{
+    height: 438px;
+    width: 657px;
+    border-radius: 3%;
+}
+.producer-4{
+    margin-left: 2%;
+    width: 48%;
+    color: white;
+    text-align: center;
+}
+.producer-4 img{
+    height: 438px;
+    width: 657px;
+    border-radius: 3%;
+}
+.producer-5{
+    margin-right: 2%;
+    width: 48%;
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+}
+.producer-5 img{
+    height: 438px;
+    width: 657px;
+    border-radius: 3%;
 }
 /* 製作人 */
