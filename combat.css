@@ -119,12 +119,11 @@ p{
     overflow: hidden;
 }
 .weak-1-text{
-    background-color: rosybrown;
-    width: 75%;
+    
     border-radius: 25px;
 }
 .weak-1-img{
-    background-color: aquamarine;
+   
     width: 25%;
     border-radius: 25px;
     display: flex;
@@ -191,7 +190,7 @@ p{
     overflow: hidden;
 }
 .weak-2-text{
-    background-color: burlywood;
+   
     width: 50%;
 }
 .weak-2-img{
@@ -323,11 +322,11 @@ p{
     border-radius: 25px;
 }
 .BP-1-text{
-    background-color: rosybrown;
+    
     width: 100%;
 }
 .BP-1-img{
-    background-color: goldenrod;
+  
     border-radius: 25px;
     width: 60%;
     margin: 0% 20%;
@@ -362,11 +361,11 @@ p{
     overflow: hidden;
 }
 .BP-2-text{
-    background-color: lawngreen;
+    
     width: 100%;
 }
 .BP-2-img{
-    background-color: aquamarine;
+    
     width: 70%;
     margin: 0% 15%;
     display: flex;
@@ -399,11 +398,11 @@ p{
     overflow: hidden;
 }
 .BP-3-text{
-    background-color: blueviolet;
+    
     width: 100%;
 }
 .BP-3-img{
-    background-color: burlywood;
+    
     width: 100%;
     display: flex;
     flex-direction: row;
